@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Controle de Estoque</title> 
+</head>
+<body>
+    <div class="container">
+        <h1>Controle de Estoque</h1>
+        <div class="form-group">
+            <label for="item"> Nome do Item:</label>
+            <input type="text" id="item" placeholder="Insira o nome do item" required>
+            <label for="quantity">Quantidade:</label>
+            <input type="number" id="quantity" placeholder=" Insira a quantidade" required>
+            <button onclick="addItem()">Adicionar Item</button>
+        </div>
+        <div id="stock-list">
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
